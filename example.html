@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>JSON Data To HTML Table - jQuery Plugin</title>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300|Open+Sans+Condensed:300|Open+Sans:300"
+          rel="stylesheet">
+    <script src="jQuery-3.2.1.min.js"></script>
+    <script src="../JSON-to-Table.min.1.0.0.js"></script>
+    <style>
+        body {
+            font-family: 'Josefin Sans', sans-serif;
+        }
+
+        h1 {
+            font-size: 40px;
+            color: #08090d;
+            text-align: center;
+        }
+
+        h1 span {
+            font-size: 25px;
+            color: #477dd7;
+        }
+
+        h2 {
+            font-family: "Open Sans Condensed", sans-serif;
+            font-size: 18px;
+        }
+
+        .margin-bottom {
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+<h1>JSON Data To HTML Table - <span>An Example of Lightweight jQuery Plugin for Beginners</span></h1>
+<h2>External JSON data file Example</h2>
+<div class="table margin-bottom"></div>
+<h2>JSON Object variable Example</h2>
+<div id="table-2" class="margin-bottom"></div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        //$.getJSON("/sample-data.json", function (data) {
+        $.getJSON("https://qczjfcehec.execute-api.us-east-1.amazonaws.com/api/visitor_center_logs", function (data) {
+            print(data)
+            $('.table').createTable(data, {
+                // General Style for Table
+                borderWidth: '1px',
+                borderStyle: 'solid',
+                borderColor: '#DDDDDD',
+                fontFamily: 'Verdana, Helvetica, Arial, FreeSans, sans-serif',
+
+                // Table Header Style
+                thBg: '#F3F3F3',
+                thColor: '#0E0E0E',
+                thHeight: '30px',
+                thFontFamily: '"Open Sans Condensed", sans-serif',
+                thFontSize: '14px',
+                thTextTransform: 'capitalize',
+
+                // Table Body/Row Style
+                trBg: '#FFFFFF',
+                trColor: '#0E0E0E',
+                trHeight: '25px',
+                trFontFamily: '"Open Sans", sans-serif',
+                trFontSize: '13px',
+
+                // Table Body's Column Style
+                tdPaddingLeft: '10px',
+                tdPaddingRight: '10px'
+            });
+        });
+
+        var data = [
+            {
+                "id": 3,
+                "vc_lead_id": "dzshih",
+                "date": "2018-06-11 08:05:20",
+                "group_size": 15,
+                "tour": "Welcome Tour",
+                "phone_inquiry": "",
+                "complaints": "",
+                "notes": "Smooth",
+                "destinations": [],
+                "requests": []
+            },
+            {
+                "id": 4,
+                "vc_lead_id": "dzshih",
+                "date": "2018-06-11 08:05:20",
+                "group_size": 15,
+                "tour": "Welcome Tour",
+                "phone_inquiry": "",
+                "complaints": "",
+                "notes": "Smooth",
+                "destinations": [],
+                "requests": []
+            },
+            {
+                "id": 5,
+                "vc_lead_id": "dzshih",
+                "date": "2018-06-11 08:05:20",
+                "group_size": 15,
+                "tour": "Welcome Tour",
+                "phone_inquiry": "",
+                "complaints": "",
+                "notes": "Smooth",
+                "destinations": [],
+                "requests": []
+            },
+            {
+                "id": 6,
+                "vc_lead_id": "dzshih",
+                "date": "2018-06-11 08:05:20",
+                "group_size": 15,
+                "tour": "Welcome Tour",
+                "phone_inquiry": "",
+                "complaints": "",
+                "notes": "Smooth",
+                "destinations": [],
+                "requests": []
+            },
+            {
+                "id": 7,
+                "vc_lead_id": "dzshih",
+                "date": "2018-06-11 08:05:20",
+                "group_size": 15,
+                "tour": "Welcome Tour",
+                "phone_inquiry": "",
+                "complaints": "",
+                "notes": "Smooth",
+                "destinations": [],
+                "requests": []
+            },
+            {
+                "id": 8,
+                "vc_lead_id": "dzshih",
+                "date": "2018-06-11 08:05:20",
+                "group_size": 15,
+                "tour": "Welcome Tour",
+                "phone_inquiry": "",
+                "complaints": "",
+                "notes": "Smooth",
+                "destinations": [],
+                "requests": []
+            },
+            {
+                "id": 9,
+                "vc_lead_id": "dzshih",
+                "date": "2018-06-11 08:05:20",
+                "group_size": 15,
+                "tour": "Welcome Tour",
+                "phone_inquiry": "",
+                "complaints": "",
+                "notes": "Smooth",
+                "destinations": [],
+                "requests": []
+            },
+            {
+                "id": 10,
+                "vc_lead_id": "dzshih",
+                "date": "2018-06-11 08:05:20",
+                "group_size": 15,
+                "tour": "Welcome Tour",
+                "phone_inquiry": "",
+                "complaints": "",
+                "notes": "Smooth",
+                "destinations": [],
+                "requests": []
+            },
+            {
+                "id": 11,
+                "vc_lead_id": "yihengl2",
+                "date": "2018-06-11 08:05:20",
+                "group_size": 10,
+                "tour": "Private Tour",
+                "phone_inquiry": "",
+                "complaints": "",
+                "notes": "Smooth",
+                "destinations": [
+                    "Aldrich Hall",
+                    "ASUCI"
+                ],
+                "requests": [
+                    "Air conditioning",
+                    "Empty trash"
+                ]
+            },
+            {
+                "id": 12,
+                "vc_lead_id": "yihengl2",
+                "date": "0000-00-00 00:00:00",
+                "group_size": 2,
+                "tour": "Campus/Housing Tour",
+                "phone_inquiry": "Hi",
+                "complaints": "Nah",
+                "notes": "Hello",
+                "destinations": [
+                    "Ayala Science Library",
+                    "Career Center"
+                ],
+                "requests": [
+                    "",
+                    "Hi"
+                ]
+            },
+            {
+                "id": 13,
+                "vc_lead_id": "yihengl2",
+                "date": "0000-00-00 00:00:00",
+                "group_size": 1,
+                "tour": "",
+                "phone_inquiry": "",
+                "complaints": "",
+                "notes": "",
+                "destinations": [],
+                "requests": [
+                    "Yo"
+                ]
+            },
+            {
+                "id": 14,
+                "vc_lead_id": "yihengl2",
+                "date": "2018-11-15 09:50:50",
+                "group_size": 2,
+                "tour": "",
+                "phone_inquiry": "",
+                "complaints": "",
+                "notes": "",
+                "destinations": [
+                    "Ayala Science Library",
+                    "Career Center",
+                    "Yo"
+                ],
+                "requests": [
+                    "Hi"
+                ]
+            },
+            {
+                "id": 15,
+                "vc_lead_id": "yihengl2",
+                "date": "2018-11-15 09:54:00",
+                "group_size": 2,
+                "tour": "Self-guided Tour",
+                "phone_inquiry": "Yo",
+                "complaints": "Hi",
+                "notes": "Yo",
+                "destinations": [
+                    "Ayala Science Library",
+                    "Counseling Center",
+                    "Hi"
+                ],
+                "requests": [
+                    "Assistance with Wifi"
+                ]
+            },
+            {
+                "id": 16,
+                "vc_lead_id": "yihengl2",
+                "date": "2018-11-15 10:00:03",
+                "group_size": 2,
+                "tour": "Private Tour",
+                "phone_inquiry": "Yo",
+                "complaints": "",
+                "notes": "",
+                "destinations": [
+                    "Hi"
+                ],
+                "requests": [
+                    "Change of set-up in conference room",
+                    "Empty trash"
+                ]
+            },
+            {
+                "id": 17,
+                "vc_lead_id": "yihengl2",
+                "date": "2018-11-15 10:04:36",
+                "group_size": 0,
+                "tour": "",
+                "phone_inquiry": "",
+                "complaints": "",
+                "notes": "",
+                "destinations": [],
+                "requests": []
+            },
+            {
+                "id": 18,
+                "vc_lead_id": "yihengl2",
+                "date": "2018-11-16 08:58:19",
+                "group_size": 2,
+                "tour": "Campus/Housing Tour",
+                "phone_inquiry": "",
+                "complaints": "",
+                "notes": "Hello",
+                "destinations": [
+                    "ASUCI",
+                    "Cross Cultural Center",
+                    "Hi"
+                ],
+                "requests": [
+                    "Yo"
+                ]
+            }
+        ];
+        $('#table-2').createTable(data, {});
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,231 @@
+[
+    {
+        "id": 3,
+        "vc_lead_id": "dzshih",
+        "date": "2018-06-11 08:05:20",
+        "group_size": 15,
+        "tour": "Welcome Tour",
+        "phone_inquiry": "",
+        "complaints": "",
+        "notes": "Smooth",
+        "destinations": [],
+        "requests": []
+    },
+    {
+        "id": 4,
+        "vc_lead_id": "dzshih",
+        "date": "2018-06-11 08:05:20",
+        "group_size": 15,
+        "tour": "Welcome Tour",
+        "phone_inquiry": "",
+        "complaints": "",
+        "notes": "Smooth",
+        "destinations": [],
+        "requests": []
+    },
+    {
+        "id": 5,
+        "vc_lead_id": "dzshih",
+        "date": "2018-06-11 08:05:20",
+        "group_size": 15,
+        "tour": "Welcome Tour",
+        "phone_inquiry": "",
+        "complaints": "",
+        "notes": "Smooth",
+        "destinations": [],
+        "requests": []
+    },
+    {
+        "id": 6,
+        "vc_lead_id": "dzshih",
+        "date": "2018-06-11 08:05:20",
+        "group_size": 15,
+        "tour": "Welcome Tour",
+        "phone_inquiry": "",
+        "complaints": "",
+        "notes": "Smooth",
+        "destinations": [],
+        "requests": []
+    },
+    {
+        "id": 7,
+        "vc_lead_id": "dzshih",
+        "date": "2018-06-11 08:05:20",
+        "group_size": 15,
+        "tour": "Welcome Tour",
+        "phone_inquiry": "",
+        "complaints": "",
+        "notes": "Smooth",
+        "destinations": [],
+        "requests": []
+    },
+    {
+        "id": 8,
+        "vc_lead_id": "dzshih",
+        "date": "2018-06-11 08:05:20",
+        "group_size": 15,
+        "tour": "Welcome Tour",
+        "phone_inquiry": "",
+        "complaints": "",
+        "notes": "Smooth",
+        "destinations": [],
+        "requests": []
+    },
+    {
+        "id": 9,
+        "vc_lead_id": "dzshih",
+        "date": "2018-06-11 08:05:20",
+        "group_size": 15,
+        "tour": "Welcome Tour",
+        "phone_inquiry": "",
+        "complaints": "",
+        "notes": "Smooth",
+        "destinations": [],
+        "requests": []
+    },
+    {
+        "id": 10,
+        "vc_lead_id": "dzshih",
+        "date": "2018-06-11 08:05:20",
+        "group_size": 15,
+        "tour": "Welcome Tour",
+        "phone_inquiry": "",
+        "complaints": "",
+        "notes": "Smooth",
+        "destinations": [],
+        "requests": []
+    },
+    {
+        "id": 11,
+        "vc_lead_id": "yihengl2",
+        "date": "2018-06-11 08:05:20",
+        "group_size": 10,
+        "tour": "Private Tour",
+        "phone_inquiry": "",
+        "complaints": "",
+        "notes": "Smooth",
+        "destinations": [
+            "Aldrich Hall",
+            "ASUCI"
+        ],
+        "requests": [
+            "Air conditioning",
+            "Empty trash"
+        ]
+    },
+    {
+        "id": 12,
+        "vc_lead_id": "yihengl2",
+        "date": "0000-00-00 00:00:00",
+        "group_size": 2,
+        "tour": "Campus/Housing Tour",
+        "phone_inquiry": "Hi",
+        "complaints": "Nah",
+        "notes": "Hello",
+        "destinations": [
+            "Ayala Science Library",
+            "Career Center"
+        ],
+        "requests": [
+            "",
+            "Hi"
+        ]
+    },
+    {
+        "id": 13,
+        "vc_lead_id": "yihengl2",
+        "date": "0000-00-00 00:00:00",
+        "group_size": 1,
+        "tour": "",
+        "phone_inquiry": "",
+        "complaints": "",
+        "notes": "",
+        "destinations": [],
+        "requests": [
+            "Yo"
+        ]
+    },
+    {
+        "id": 14,
+        "vc_lead_id": "yihengl2",
+        "date": "2018-11-15 09:50:50",
+        "group_size": 2,
+        "tour": "",
+        "phone_inquiry": "",
+        "complaints": "",
+        "notes": "",
+        "destinations": [
+            "Ayala Science Library",
+            "Career Center",
+            "Yo"
+        ],
+        "requests": [
+            "Hi"
+        ]
+    },
+    {
+        "id": 15,
+        "vc_lead_id": "yihengl2",
+        "date": "2018-11-15 09:54:00",
+        "group_size": 2,
+        "tour": "Self-guided Tour",
+        "phone_inquiry": "Yo",
+        "complaints": "Hi",
+        "notes": "Yo",
+        "destinations": [
+            "Ayala Science Library",
+            "Counseling Center",
+            "Hi"
+        ],
+        "requests": [
+            "Assistance with Wifi"
+        ]
+    },
+    {
+        "id": 16,
+        "vc_lead_id": "yihengl2",
+        "date": "2018-11-15 10:00:03",
+        "group_size": 2,
+        "tour": "Private Tour",
+        "phone_inquiry": "Yo",
+        "complaints": "",
+        "notes": "",
+        "destinations": [
+            "Hi"
+        ],
+        "requests": [
+            "Change of set-up in conference room",
+            "Empty trash"
+        ]
+    },
+    {
+        "id": 17,
+        "vc_lead_id": "yihengl2",
+        "date": "2018-11-15 10:04:36",
+        "group_size": 0,
+        "tour": "",
+        "phone_inquiry": "",
+        "complaints": "",
+        "notes": "",
+        "destinations": [],
+        "requests": []
+    },
+    {
+        "id": 18,
+        "vc_lead_id": "yihengl2",
+        "date": "2018-11-16 08:58:19",
+        "group_size": 2,
+        "tour": "Campus/Housing Tour",
+        "phone_inquiry": "",
+        "complaints": "",
+        "notes": "Hello",
+        "destinations": [
+            "ASUCI",
+            "Cross Cultural Center",
+            "Hi"
+        ],
+        "requests": [
+            "Yo"
+        ]
+    }
+]
