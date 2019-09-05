@@ -339,7 +339,7 @@
             "whiteBalanceTemperatureL": 5500.0,
             "lensP": "telephoto",
             "focusL": 0.564705848693848,
-            "zoomL": 1.83,
+            "zoomL": 1.22592735290527,
         },
         {
             "xPositionL": 154,
@@ -370,7 +370,7 @@
             "whiteBalanceTemperatureL": 5500.0,
             "lensP": "telephoto",
             "focusL": 0.584313750267029,
-            "zoomL": 1.83,
+            "zoomL": 1.27444744110107,
         },
         {
             "xPositionL": 81,
@@ -401,7 +401,7 @@
             "whiteBalanceTemperatureL": 5500.0,
             "lensP": "telephoto",
             "focusL": 0.564705848693848,
-            "zoomL": 1.502724647522,
+            "zoomL": 1.22414338588715,
         },
     ]
 }
